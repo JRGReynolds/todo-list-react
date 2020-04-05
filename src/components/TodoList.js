@@ -7,11 +7,11 @@ export default class TodoList extends Component {
     return (
       
       <ul className = "list-group mxy-5" >
-      <h3 className="text-capitalize text-center font-color">List</h3>
+      <h3 className="text-capitalize text-center font-colorgit">List</h3>
       {items.map(item => {
         return (
 
-          
+          //change
           <TodoItem 
           
           key={item.id} 
