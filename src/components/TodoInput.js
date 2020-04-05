@@ -32,7 +32,7 @@ export default class TodoInput extends Component {
           
           }
           >
-            {editItem ? "edit item" : "add item"}
+            {editItem ? "save item" : "add item"}
           </button>
         </form>
       </div>
